@@ -27,7 +27,7 @@ def rename_images(folder_path, new_name_prefix, start_number=1):
         count += 1
 
 # Example usage
-folder_path = 'Bacterial leaf blight/'
-new_name_prefix = 'BLB'
+folder_path = '/path/to/folder/'
+new_name_prefix = 'file_name'
 start_number = 101
 rename_images(folder_path, new_name_prefix, start_number)
